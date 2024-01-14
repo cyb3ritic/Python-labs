@@ -61,7 +61,7 @@ list1 , list2 = list(text1.upper()) , list(text2.upper())
 list1.sort()
 list2.sort()
 
-if list1 == list2:
+if len(list1) > 0 and list1 == list2:
   print("anagram")
 else:
   print("not an anagram")
